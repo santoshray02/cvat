@@ -1,4 +1,4 @@
-import 'antd/dist/antd.less';
+import '../antd.css';
 import '../styles.scss';
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';

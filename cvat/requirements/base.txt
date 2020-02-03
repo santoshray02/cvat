@@ -10,7 +10,7 @@ ffmpy==0.2.2
 Pillow==6.2.0
 numpy==1.16.2
 patool==1.12
-python-ldap==3.0.0
+#python-ldap==3.0.0
 pytz==2018.3
 pyunpack==0.1.2
 rcssmin==1.0.6
@@ -33,7 +33,8 @@ Markdown==3.0.1
 djangorestframework==3.9.3
 Pygments==2.3.1
 drf-yasg==1.17.0
-Shapely==1.6.4.post2
+cvat\requirements\Shapely-1.6.4.post2-cp37-cp37m-win_amd64.whl
+cvat\requirements\python_ldap-3.2.0-cp37-cp37m-win_amd64.whl
 pdf2image==1.6.0
 pascal_voc_writer==0.1.4
 django-rest-auth[with_social]==0.9.5
@@ -47,3 +48,4 @@ h5py==2.9.0
 imgaug==0.2.9
 django-cors-headers==3.2.0
 furl==2.0.0
+git+https://github.com/michaelbrooks/rq-win.git#egg=rq-win

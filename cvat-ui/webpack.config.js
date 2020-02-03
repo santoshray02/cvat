@@ -48,9 +48,9 @@ module.exports = {
                 },
             },
         }, {
-            test: /node_modules\/antd\/[\w\/]*.less$/,
+            test: /node_modules\/antd\/[\w\/]*.css$/,
             use: ['style-loader', 'css-loader', {
-                loader: 'less-loader',
+                loader: 'css-loader',
                 options: {
                     javascriptEnabled: true,
                 },
@@ -89,6 +89,7 @@ module.exports = {
         }),
         new Dotenv({
             systemvars: true,
+            path: path.resolve(__dirname, './.env'),
         }),
     ],
     node: { fs: 'empty' },
